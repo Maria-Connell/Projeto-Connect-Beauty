@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="347dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo">
+
+    </ImageView>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_login"
+        android:background="@drawable/botao_customizado"
+        android:padding="15dp"
+        android:hint="Senha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/logo"
+
+        >
+    </EditText>
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_password"
+        android:background="@drawable/botao_customizado"
+        android:padding="15dp"
+        android:hint="Nome de Usuário"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+
+
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_entrarlogin"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/botao_customizado"
+        android:text="Entrar"
+        android:textColor="#104f55">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_gmail"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="129dp"
+        android:background="@drawable/botao_customizado"
+        android:backgroundTint="#104f55"
+        android:text="Entrar com Gmail"
+        android:textColor="#ffffff">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/esqueci_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="Esqueci minha senha"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginTop="620dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold">
+    </TextView>
+
+</RelativeLayout>
