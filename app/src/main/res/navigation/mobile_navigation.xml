@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.projeto.connectbeauty.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        android:drawableLeft="@drawable/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.projeto.connectbeauty.ui.perfil.PerfilFragment"
+        android:label="Meu Perfil"
+        android:drawableLeft="@drawable/user"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/nav_anunciar"
+        android:name="com.projeto.connectbeauty.ui.anunciar.AnunciarFragment"
+        android:label="Anunciar"
+        tools:layout="@layout/fragment_anunciar" />
+
+    <fragment
+        android:id="@+id/nav_meuserv"
+        android:name="com.projeto.connectbeauty.ui.meuserv.MeuServFragment"
+        android:label="Meu Serviço"
+        tools:layout="@layout/fragment_meuserv" />
+    <fragment
+        android:id="@+id/nav_fav"
+        android:name="com.projeto.connectbeauty.ui.favoritos.FavoritosFragment"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+</navigation>

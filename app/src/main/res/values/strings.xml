@@ -1,3 +1,35 @@
 <resources>
-    <string name="app_name">ConnectBeautyLogin</string>
+    <string name="app_name">ConnectBeauty</string>
+    <string name="connect_beauty">Connect Beauty</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar_se">Cadastrar-se</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="tipo">
+        <item>Tipo</item>
+        <item>Salão</item>
+        <item>Independente</item>
+    </string-array>
+
+    <string-array name="categorias">
+        <item>Categorias</item>
+        <item>Cabelereiro</item>
+        <item>Maquiador</item>
+        <item>Manicure</item>
+        <item>Esteticista</item>
+        <item>Depilador</item>
+        <item>Massagista</item>
+        <item>Designer de Sobrancelhas</item>
+        <item>Outros</item>
+    </string-array>
 </resources>

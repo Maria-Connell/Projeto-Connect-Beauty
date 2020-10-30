@@ -1,100 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".Login">
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="347dp"
-        android:layout_height="230dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/logo">
 
-    </ImageView>
+    <ProgressBar
+        android:id="@+id/progressLogin"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/esqueci_senha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gmail"
+        app:layout_constraintVertical_bias="0.389" />
 
     <EditText
+        android:id="@+id/editLoginSenha"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:id="@+id/input_login"
-        android:background="@drawable/botao_customizado"
-        android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="5dp"
         android:hint="Senha"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_below="@id/logo"
-
-        >
-    </EditText>
-
-
-    <EditText
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/input_password"
-        android:background="@drawable/botao_customizado"
+        android:inputType="textPassword"
         android:padding="15dp"
-        android:hint="Nome de Usuário"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_below="@id/logo"
-        android:layout_centerHorizontal="true"
-
-
-        >
+        android:textColorHint="#4F4F4F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587"
+        tools:ignore="MissingConstraints">
 
     </EditText>
 
     <Button
-        android:id="@+id/btn_entrarlogin"
+        android:id="@+id/buttonEntrar"
         android:layout_width="340dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="200dp"
-        android:background="@drawable/botao_customizado"
+        android:background="@color/colorAccentLight"
         android:text="Entrar"
-        android:textColor="#104f55">
+        android:textColor="#FFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711"
+        tools:ignore="MissingConstraints">
 
     </Button>
 
     <Button
         android:id="@+id/btn_gmail"
         android:layout_width="340dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="34dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="129dp"
-        android:background="@drawable/botao_customizado"
-        android:backgroundTint="#104f55"
+        android:background="@color/colorPrimaryDark"
+        android:drawablePadding="0dp"
         android:text="Entrar com Gmail"
-        android:textColor="#ffffff">
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814"
+        tools:ignore="MissingConstraints">
 
     </Button>
+
+    <EditText
+        android:id="@+id/editLoginEmail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="5dp"
+        android:hint="Email"
+        android:padding="15dp"
+        android:textColor="#4F4F4F"
+        android:textColorHint="#4F4F4F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483"
+        tools:ignore="MissingConstraints" />
+
 
     <TextView
         android:id="@+id/esqueci_senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
-        android:text="Esqueci minha senha"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        android:layout_marginTop="620dp"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold">
-    </TextView>
+        android:onClick="goToEsqueci"
+        android:text="Esqueci minha senha"
+        android:textColor="#4F4F4F"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_gmail"
+        app:layout_constraintVertical_bias="0.281"
+        tools:ignore="MissingConstraints" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154"
+        app:srcCompat="@drawable/user" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

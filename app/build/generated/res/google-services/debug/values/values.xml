@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">446568823627-ppin5iun7qqr4d1kj4d8uukvptdhc563.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://banco-cbeauty.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">446568823627</string>
+    <string name="google_api_key" translatable="false">AIzaSyAQvDwJZxfvVM6-y2gXDzw8BPL7-izWwMk</string>
+    <string name="google_app_id" translatable="false">1:446568823627:android:20e4c4e5ebf1a24a1346ce</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAQvDwJZxfvVM6-y2gXDzw8BPL7-izWwMk</string>
+    <string name="google_storage_bucket" translatable="false">banco-cbeauty.appspot.com</string>
+    <string name="project_id" translatable="false">banco-cbeauty</string>
+</resources>
