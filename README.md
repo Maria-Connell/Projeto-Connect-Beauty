@@ -7,3 +7,5 @@ Integrantes: Eric Tiago, Giovanna Magalhães, Maria Connell, Adryan Golvim, Cata
 
 ## Qual o objetivo ?
 
+## Como instalar ?
+
