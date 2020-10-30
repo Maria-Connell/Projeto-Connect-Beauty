@@ -5,3 +5,5 @@ Integrantes: Eric Tiago, Giovanna Magalhães, Maria Connell, Adryan Golvim, Cata
 
 ## O que é ?
 
+## Qual o objetivo ?
+
