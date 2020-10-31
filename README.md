@@ -18,6 +18,7 @@ Um software que auxilia os profissionais na área estética e seus clientes. Pos
 A instalação é feita a partir de um link que se é disponibilizado e diretamente é redirecionado ao APK.
 
 ## É código aberto? Como contribuir?
+O projeto não será aberto. 
 
 ## O que preciso para gerar/buildar uma versão
 Para gerar uma versão do projeto você deve ter baixado o projeto e ter ele aberto no 
