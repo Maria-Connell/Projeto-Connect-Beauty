@@ -20,4 +20,4 @@
 ## O que preciso para gerar/buildar uma versão
 Para gerar uma versão do projeto você deve ter baixado o projeto e ter ele aberto no 
 Android Studio, depois voce só precisa ir na barra onde tem File, Edit etc, lá você vai encontrar  o **Build**
-depois de ter apertado desce um pouco as opções e aperte no Build Bundle(s) APK, depois aperte em BUild APK e pronto só esperar gerar a versão  
+depois de ter apertado desce um pouco as opções e aperte no **Build Bundle(s) APK**, depois aperte em **Build APK** e pronto só esperar gerar a versão  
