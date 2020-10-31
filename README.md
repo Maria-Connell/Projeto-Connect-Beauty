@@ -15,6 +15,7 @@ Um software que auxilia os profissionais na área estética e seus clientes. Pos
 - Victor Vasconcelos: Programador.
 
 ## Como instalar?
+A instalação é feita a partir de um link que se é disponibilizado e diretamente é redirecionado ao APK.
 
 ## É código aberto? Como contribuir?
 
