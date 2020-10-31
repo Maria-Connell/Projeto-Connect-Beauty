@@ -1,9 +1,12 @@
 # Connect Beauty
 
+https://github.com/Maria-Connell/Projeto-Connect-Beauty/blob/master/app/src/main/res/drawable-mdpi/connect_beauty.png
+
 ## O que é?
 Um software que auxilia os profissionais na área estética e seus clientes. Possibilita a divulgação dos esteticitas na plataforma, facilitando a procura destes pelos consumidores. Essa maior visibilidade contribui para um menor índice de desempregados no ramo, e, ainda, contribui com a vida diária dos usuários, deixando-a mais dinâmica.
 
 ## Como baixar
+
 
 ## Quem faz parte da equipe e cada papel de cada?
 - Adryan Golvim: Designer do projeto .
