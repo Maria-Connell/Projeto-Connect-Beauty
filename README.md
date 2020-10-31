@@ -1,6 +1,7 @@
 # Connect Beauty
 
 ## O que é?
+Um software que auxiliar os profissionais na área estética e seus clientes. Possibilita a divulgação dos esteticitas na plataforma, facilitando a procura destes pelos consumidores.
 
 ## Como baixar
 
