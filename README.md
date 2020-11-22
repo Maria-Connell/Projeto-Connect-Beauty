@@ -18,7 +18,7 @@ Um software que auxilia os profissionais na área estética e seus clientes. Pos
 - Victor Vasconcelos: Programador.
 
 ## Como instalar?
-- O usar o link, o google vai pedir seu email pois o app está guardado no Google Drive e o seu email é necessário para abri-lo. Depois de ter feito isso vai aparece uma opção de “Abrir com”, se tiver só uma opção você escolhe essa se não, você decide a melhor maneira de baixar o app, feito isso se o Drive não permitir você deve conceder o acesso a ele de baixar, após isso você já tem o apk baixado
+- Ao usar o link, o google vai pedir seu email pois o app está guardado no Google Drive e o seu email é necessário para abri-lo. Depois de ter feito isso vai aparece uma opção de “Abrir com”, se tiver só uma opção você escolhe essa se não, você decide a melhor maneira de baixar o app, feito isso se o Drive não permitir você deve conceder o acesso a ele de baixar, após isso você já tem o apk baixado
 - Tendo o apk baixado por meio do link, para você instalar o aplicativo, basta navegar no arquivo onde se encontra apk baixado e prossiga no processo de instalação; 
 - Caso seu celular não aceita instalação de fontes desconhecidas. Faça os seguintes passos: Primeiro, acesse o menu de configurações do seu telefone através da barra de notificações ou pelo ícone do app;
 
